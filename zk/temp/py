@@ -1,0 +1,25 @@
+import json
+
+with open("./input.json") as f:
+        input = json.load(f)
+
+image = input.get('image')
+
+print(len(image))
+print("////")
+print(len(image[0]))
+print(len(image[1]))
+print(len(image[2]))
+print(len(image[3]))
+print(len(image[4]))
+print(len(image[5]))
+print(len(image[6]))
+print(len(image[7]))
+print(len(image[8]))
+print(len(image[9]))
+print(len(image[10]))
+print(len(image[11]))
+print(len(image[12]))
+print(len(image[13]))
+print(len(image[14]))
+print(len(image[15]))

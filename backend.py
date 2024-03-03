@@ -138,4 +138,6 @@ def receive_image():
     return jsonify(modified_image)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    # Change the IP address to '0.0.0.0' to listen on all available network interfaces
+    # Change the port number to the desired port, for example, 8080
+    app.run(host='0.0.0.0', port=8080, debug=True)
